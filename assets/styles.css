@@ -1,0 +1,50 @@
+.box-con{
+    max-width: 98vw;
+    margin: auto;
+}
+.box,.ball,.ball1{
+    position:relative;
+    font-size:10px;
+    /* top:40px;
+    left:40px; */
+    display:inline-block;
+    margin:5px;
+    border-radius: 50% ;
+    width:10px;
+    height:10px;
+    color:white;
+    text-align:center;
+    line-height:20px;
+    background: blue;
+}
+
+.box-con:nth-child(2) .box{
+    background: tomato;
+}
+
+.box-con:nth-child(3) .box{
+    background: yellowgreen;
+}
+
+.box-con:nth-child(4) .box{
+    background: plum;
+}
+
+.box-con:nth-child(5) .box{
+    background: orangered;
+}
+.box-con:nth-child(6) .box{
+    background: mediumaquamarine;
+}
+.box-con:nth-child(8) .box{
+    background: palegreen;
+}
+
+html,body{
+    margin:0; 
+    padding:0;
+    background: #020202;
+}
+.box:hover{
+    transform: scale(1.5);
+}
