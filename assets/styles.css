@@ -1,6 +1,8 @@
 .box-con{
     max-width: 98vw;
     margin: auto;
+    overflow: hidden;
+    height: 100vh;
 }
 .box,.ball,.ball1{
     position:relative;
