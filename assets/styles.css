@@ -4,7 +4,7 @@
     overflow: hidden;
     height: 100vh;
 }
-.box,.ball,.ball1{
+.box{
     position:relative;
     font-size:10px;
     /* top:40px;
